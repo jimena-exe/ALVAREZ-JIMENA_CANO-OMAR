@@ -1,0 +1,13 @@
+[2024-08-12 21:03:28] [ERROR] [OdontologoServiceTest:30] Error: Parametro de conexión No soportado " INIT"
+Unsupported connection setting " INIT" [90113-232]
+[2024-08-12 21:11:47] [ERROR] [OdontologoServiceTest:29] Error: Parametro de conexión No soportado " INIT "
+Unsupported connection setting " INIT " [90113-232]
+[2024-08-12 21:21:19] [ERROR] [OdontologoServiceTest:30] Error: Parametro de conexión No soportado "INIT "
+Unsupported connection setting "INIT " [90113-232]
+[2024-08-12 21:23:45] [ERROR] [OdontologoServiceTest:28] Error: Error de formato en URL; debe ser "jdbc:h2:{ {.|mem:}[name] | [file:]fileName | {tcp|ssl}:[//]server[:port][,server2[:port]]/name }[;key=value...]" pero es "jdbc:h2:./examen1"
+URL format error; must be "jdbc:h2:{ {.|mem:}[name] | [file:]fileName | {tcp|ssl}:[//]server[:port][,server2[:port]]/name }[;key=value...]" but is "jdbc:h2:./examen1" [90046-232]
+[2024-08-12 21:32:42] [ERROR] [OdontologoServiceTest:28] Error: Columna "MATRICULA1" no encontrada
+Column "MATRICULA1" not found; SQL statement:
+
+
+INSERT INTO ODONTOLOGOS VALUES(DEFAULT, "MATRICULA1","ALBERTO","GOMEZ") [42122-232]
